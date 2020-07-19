@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="/static/styles.css">
   </head>
   <body>
+<div class="container">
     {% for article in esm %}
     <h2><a href="#">{{article.title}}</a></h2>
     <p>{{article.snippet}}</p>
     {% endfor %}
+</div>
   </body>
 </html>
